@@ -1,5 +1,7 @@
 <script>
-    let name = "Svelte";
+    let name = "dude"; // Modified to use 'dude' as per your new snippet
+    let src = "/image.gif"; // Path to your GIF image
 </script>
 
 <h1>Hello {name.toUpperCase()}!</h1>
+<img {src} alt="{name} dances." />
