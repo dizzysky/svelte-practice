@@ -5,3 +5,13 @@
 
 <h1>Hello {name.toUpperCase()}!</h1>
 <img {src} alt="{name} dances." />
+
+<style>
+    /* Write your CSS here */
+
+    p {
+        color: klein blue;
+        font-family: "Futura";
+        font-size: 2em;
+    }
+</style>
