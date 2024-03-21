@@ -10,7 +10,7 @@
     /* Write your CSS here */
 
     p {
-        color: klein blue;
+        color: blue;
         font-family: "Futura";
         font-size: 2em;
     }
