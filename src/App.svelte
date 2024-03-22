@@ -2,7 +2,7 @@
     let name = "dude"; // Modified to use 'dude' as per your new snippet
     let src = "/image.gif"; // Path to your GIF image
     let count = 0;
-
+    $: doubled = count * 2;
     function increment() {
         count += 1;
     }
@@ -17,6 +17,7 @@
     Clicked {count}
     {count === 1 ? "time" : "times"}
 </button>
+<p>{count} doubled is {doubled}</p>
 
 <style>
     /* Write your CSS here */
